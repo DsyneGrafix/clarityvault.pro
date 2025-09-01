@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'ananke'
+
+
+baseURL = 'https://clarity.pro/'
+languageCode = 'en-us'
+title = 'Clarity'
+theme = 'ananke'
+
+[params]
+  description = "Clear thinking for complex times"
+  favicon = ""
+  site_logo = ""
+  featured_image = ""
