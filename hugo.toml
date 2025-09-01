@@ -1,12 +1,7 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
 
-
-baseURL = 'https://clarity.pro/'
+baseURL = 'https://clarityvault.pro/'
 languageCode = 'en-us'
-title = 'Clarity'
+title = 'ClarityVault.pro'
 theme = 'ananke'
 
 [params]
@@ -14,3 +9,28 @@ theme = 'ananke'
   favicon = ""
   site_logo = ""
   featured_image = ""
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Articles"
+  url = "/articles/"
+  weight = 3
+
+[[menu.main]]
+  name = "Resources"
+  url = "/resources/"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 5
